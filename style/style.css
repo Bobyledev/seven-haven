@@ -1,0 +1,84 @@
+/* header*/
+
+header{
+margin: 1%;
+height: 5em;
+background-color: brown;
+background-image:url(./image/logo.jpeg);
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+/*body*/
+
+body{
+background-image: url(./image/bar.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30em;
+    width: 30em;
+    border-radius: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2% auto;
+    padding: 1%;
+    border-radius: 1px solid black;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+form{
+    margin: 40% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+label{
+    color: black;
+}
+
+input{
+    margin: 10%;
+    background-color: red;
+    height: 2em;
+    width: 11em;
+    font-weight: bolder;
+    color: white;
+}
+
+button{
+    margin: 10%;
+    height: 2em;
+    width: 11em;
+    font-weight: bolder;
+    color: beige;
+}
+
+
+/*footer*/
+
+footer{
+    margin: 1%;
+    height: 5em;
+    padding: 8px 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
