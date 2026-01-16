@@ -3,17 +3,13 @@
 header{
 margin: 1%;
 height: 5em;
-background-color: brown;
-background-image:url(./image/logo.jpeg);
-display:flex;
-flex-direction: column;
-align-items: center;
+background-image: url("./image/logo.jpeg");
 }
 
 /*body*/
 
 body{
-background-image: url(./image/bar.png);
+background-image: url("./image/bar.png");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -75,7 +71,6 @@ footer{
     margin: 1%;
     height: 5em;
     padding: 8px 20px;
-    background-color: aqua;
     display: flex;
     justify-content: space-around;
     align-items: center;
