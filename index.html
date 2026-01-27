@@ -10,26 +10,22 @@
 <body>
     
     <header>
-        <img src="./asset/image/image_1768511303769 (1).jpeg" alt="" class="logo">
+        <img src="./asset/image/image_1768511303769 (1).jpeg" alt="logo" class="logo">
     
     </header>
 
     <main>
         <section>
 
-            <form action="">
-                <form id="form">
-                <label for="">Email :</label><br>
-                <input type="email" name="email"><br>
-                <label for="">Mot de passe :</label><br>
-                <input type="password" name="password"><br>
+            <form id="form">
+                <label for="mail">Email :</label><br>
+                <input type="email" name="mail" required><br>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" name="password" required ><br>
             </form>
             <div>
-                <button>connexion</button>
+                <button type="button" id="valider" alt="connexion"></button>
             </div>
-
-            </form>
-
 
 
         </section>
@@ -46,6 +42,7 @@
         </div>
 
     </footer>
-
+    <script src="./script.js" defer></script>
 </body>
+
 </html>
